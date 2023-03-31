@@ -1,5 +1,6 @@
-# DsA in Java
-Data structures, algorithms, coding problems solutions and more.
+# ALLinJAVA
+
+Data structures, algorithms, coding problems solutions, design patterns, refactoring techniques and more in Java.
 
 ## License
 This project is licensed under the MIT license. See [LICENSE](./LICENSE).
