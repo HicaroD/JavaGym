@@ -6,19 +6,19 @@ import java.util.List;
 
 public class Main {
     public static Integer iterativeBinarySearch(ArrayList<Integer> collection, int target) {
-        Integer lowIndex = 0;
-        Integer highIndex = collection.size() - 1;
+        Integer lower = 0;
+        Integer higher = collection.size() - 1;
 
-        while (lowIndex <= highIndex) {
-            Integer midIndex = lowIndex + ((highIndex - lowIndex) >> 1);
-            Integer midValue = collection.get(midIndex);
+        while (lower <= higher) {
+            Integer middle = lower + ((higher - lower) >> 1);
+            Integer middleValue = collection.get(middle);
 
-            if (midValue.equals(target)) {
-                return midIndex;
-            } else if (target < midValue) {
-                highIndex = midIndex - 1;
+            if (middleValue.equals(target)) {
+                return middle;
+            } else if (target < middleValue) {
+                higher = middle - 1;
             } else {
-                lowIndex = midIndex + 1;
+                lower = middle + 1;
             }
         }
         return null;
