@@ -1,4 +1,4 @@
-package linear_search;
+package searching;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
