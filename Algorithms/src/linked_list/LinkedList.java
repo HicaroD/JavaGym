@@ -32,6 +32,7 @@ public class LinkedList<T> {
 			temp = temp.getNext();
 		}
 		temp.setNext(node);
+		size++;
 	}
 
 	public void preppend(Node<T> node) {
@@ -40,6 +41,7 @@ public class LinkedList<T> {
 		}
 		node.setNext(head);
 		head = node;
+		size++;
 	}
 
 	// TODO
@@ -51,6 +53,7 @@ public class LinkedList<T> {
 		Node<T> nextHeadNode = head.getNext();
 		head.setNext(nextHeadNode);
 		head = nextHeadNode;
+		size--;
 	}
 
 	public void remove(T dataToBeRemoved) {
@@ -64,6 +67,7 @@ public class LinkedList<T> {
 			T nextNodeData = temp.getNext().getData();
 			if (nextNodeData.equals(dataToBeRemoved)) {
 				temp.setNext(temp.getNext().getNext());
+				size--;
 				return;
 			}
 			temp = temp.getNext();
