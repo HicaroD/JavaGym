@@ -44,11 +44,6 @@ public class LinkedList<T> {
 		size++;
 	}
 
-	// TODO
-	// public void insert(T data) {
-	// Node<T> node = new Node<>(data);
-	// }
-
 	public void removeHead() {
 		Node<T> nextHeadNode = head.getNext();
 		head.setNext(nextHeadNode);
