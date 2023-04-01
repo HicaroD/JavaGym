@@ -10,7 +10,7 @@ public class Main {
         Integer highIndex = collection.size() - 1;
 
         while (lowIndex <= highIndex) {
-            Integer midIndex = lowIndex + ((highIndex - lowIndex) / 2);
+            Integer midIndex = lowIndex + ((highIndex - lowIndex) >> 1);
             Integer midValue = collection.get(midIndex);
 
             if (midValue.equals(target)) {
