@@ -16,8 +16,8 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 
 | Data structure | Status             |
 |----------------|--------------------|
-| Linked List    | :white_check_mark: |
-| Stack          | :white_check_mark: |
+| Linked List    | :heavy_check_mark: |
+| Stack          | :heavy_check_mark: |
 | Queue          | :x:                |
 | Hash Map       | :x:                |
 | Binary Tree    | :x:                |
@@ -27,8 +27,8 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 
 | Searching algorithm                | Status             |
 |------------------------------------|--------------------|
-| Linear search                      | :white_check_mark: |
-| Iterative version of Binary search | :white_check_mark: |
+| Linear search                      | :heavy_check_mark: |
+| Iterative version of Binary search | :heavy_check_mark: |
 | Recursive version of Binary search | :x:                |
 
 | Sorting algorithm | Status |
