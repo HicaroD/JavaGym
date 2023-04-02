@@ -2,7 +2,7 @@
 
 ## Summary
 
-- [Introduction](#introduction) 
+- [Introduction](#introduction)
 - [Data structures](#data-structures)
 - [Algorithms](#algorithms)
 
@@ -14,26 +14,27 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 
 ### Data structures
 
-| Data structure | Status             |
-|----------------|--------------------|
-| Linked List    | :heavy_check_mark: |
-| Stack          | :heavy_check_mark: |
-| Queue          | :x:                |
-| Hash Map       | :x:                |
-| Binary Tree    | :x:                |
-| Graph          | :x:                |
+| Data structure                                   | Status             |
+| ------------------------------------------------ | ------------------ |
+| [Linked List](./DataStructures/src/linked_list/) | :heavy_check_mark: |
+| [Stack](./DataStructures/src/stack/)             | :heavy_check_mark: |
+| Queue                                            | :x:                |
+| Hash Map                                         | :x:                |
+| Binary Tree                                      | :x:                |
+| Graph                                            | :x:                |
 
 ### Algorithms
 
-| Searching algorithm                | Status             |
-|------------------------------------|--------------------|
-| Linear search                      | :heavy_check_mark: |
-| Iterative version of Binary search | :heavy_check_mark: |
-| Recursive version of Binary search | :x:                |
+| Searching algorithm                                                        | Status             |
+| -------------------------------------------------------------------------- | ------------------ |
+| [Linear search](./Algorithms/src/searching/Main.java)                      | :heavy_check_mark: |
+| [Iterative version of Binary search](./Algorithms/src/searching/Main.java) | :heavy_check_mark: |
+| Recursive version of Binary search                                         | :x:                |
 
 | Sorting algorithm | Status |
-|-------------------|--------|
+| ----------------- | ------ |
 | Bubble sort       | :x:    |
 
 ## License
+
 This project is licensed under the MIT license. See [LICENSE](./LICENSE).
