@@ -31,5 +31,9 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | Iterative version of Binary search | :white_check_mark: |
 | Recursive version of Binary search | :x:                |
 
+| Sorting algorithm | Status |
+|-------------------|--------|
+| Bubble sort       | :x:    |
+
 ## License
 This project is licensed under the MIT license. See [LICENSE](./LICENSE).
