@@ -13,10 +13,22 @@ Data structures, algorithms, coding problems solutions, design patterns, refacto
 I'm doing it for **educational purposes**, most part of the algorithms and data structures are already available in the Java's ecossystem, but I'm doing it from scratch for fun :smile:.
 
 ### Data structures
-TODO.
+
+| Data structure | Status             |
+|----------------|--------------------|
+| Linked List    | :white_check_mark: |
+| Stack          | :white_check_mark: |
+| Queue          | :x:                |
+| Binary Tree    | :x:                |
+| Graph          | :x:                |
 
 ### Algorithms
-TODO.
+
+| Searching algorithm                | Status             |
+|------------------------------------|--------------------|
+| Linear search                      | :white_check_mark: |
+| Iterative version of Binary search | :white_check_mark: |
+| Recursive version of Binary search | :x:                |
 
 ## License
 This project is licensed under the MIT license. See [LICENSE](./LICENSE).
