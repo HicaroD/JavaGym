@@ -19,6 +19,7 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | Linked List    | :white_check_mark: |
 | Stack          | :white_check_mark: |
 | Queue          | :x:                |
+| Hash Map       | :x:                |
 | Binary Tree    | :x:                |
 | Graph          | :x:                |
 
