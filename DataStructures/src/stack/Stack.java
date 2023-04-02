@@ -9,12 +9,16 @@ public class Stack<T> {
         this.items = new ArrayList<>();
     }
 
+    private int getLastIndex() {
+        return items.size() - 1;
+    }
+
     public void push(T element) {
         items.add(element);
     }
 
     public T top() {
-        int lastIndex = items.size() - 1;
+        int lastIndex = getLastIndex();
         return items.get(lastIndex);
     }
 
@@ -23,7 +27,7 @@ public class Stack<T> {
             throw new Exception("Stack underflow error");
         }
 
-        int lastIndex = items.size() - 1;
+        int lastIndex = getLastIndex();
         T removedItem = top();
         items.remove(lastIndex);
 
