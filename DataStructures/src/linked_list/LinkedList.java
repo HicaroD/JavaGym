@@ -23,7 +23,7 @@ public class LinkedList<T> {
 		}
 
 		if (head == null) {
-			head = node;
+			setHead(node);
 			return;
 		}
 
@@ -40,14 +40,14 @@ public class LinkedList<T> {
 			throw new NullPointerException("Node não pode ser nula");
 		}
 		node.setNext(head);
-		head = node;
+		setHead(node);
 		size++;
 	}
 
 	public void removeHead() {
 		Node<T> nextHeadNode = head.getNext();
 		head.setNext(nextHeadNode);
-		head = nextHeadNode;
+		setHead(nextHeadNode);
 		size--;
 	}
 
