@@ -14,14 +14,15 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 
 ### Data structures
 
-| Data structure                                                              | Status             |
-| --------------------------------------------------------------------------- | ------------------ |
-| [Linked List](./DataStructures/src/edu/javagym/datastructures/linked_list/) | :heavy_check_mark: |
-| [Stack](./DataStructures/src/edu/javagym/datastructures/stack/)             | :heavy_check_mark: |
-| Queue                                                                       | :x:                |
-| Hash Map                                                                    | :x:                |
-| Binary Tree                                                                 | :x:                |
-| Graph                                                                       | :x:                |
+| Data structure                                                                            | Status             |
+| ----------------------------------------------------------------------------------------- | ------------------ |
+| [Linked List](./DataStructures/src/edu/javagym/datastructures/linked_list/)               | :heavy_check_mark: |
+| [Stack](./DataStructures/src/edu/javagym/datastructures/stack/)                           | :heavy_check_mark: |
+| [ArrayQueue](./DataStructures/src/edu/javagym/datastructures/queue/ArrayQueue.java)       | :heavy_check_mark: |
+| [LinkedQueue](./DataStructures/src/edu/javagym/datastructures/queue/LinkedListQueue.java) | :x:                |
+| Hash Map                                                                                  | :x:                |
+| Binary Tree                                                                               | :x:                |
+| Graph                                                                                     | :x:                |
 
 ### Algorithms
 
