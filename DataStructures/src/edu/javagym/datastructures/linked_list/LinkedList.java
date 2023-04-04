@@ -1,4 +1,4 @@
-package linked_list;
+package edu.javagym.datastructures.linked_list;
 
 public class LinkedList<T> {
 	private Node<T> head;

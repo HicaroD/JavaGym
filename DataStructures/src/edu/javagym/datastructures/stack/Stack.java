@@ -1,4 +1,4 @@
-package stack;
+package edu.javagym.datastructures.stack;
 
 import java.util.ArrayList;
 
