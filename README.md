@@ -22,7 +22,8 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | [LinkedQueue](./DataStructures/src/edu/javagym/datastructures/queue/LinkedListQueue.java) | :x:                |
 | Hash Map                                                                                  | :x:                |
 | Binary Tree                                                                               | :x:                |
-| Graph                                                                                     | :x:                |
+| Adjacency Matrix                                                                          | :x:                |
+| Adjacency List                                                                            | :x:                |
 
 ### Algorithms
 
@@ -35,6 +36,10 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | Sorting algorithm | Status |
 | ----------------- | ------ |
 | Bubble sort       | :x:    |
+| Insertion sort    | :x:    |
+| Selection sort    | :x:    |
+| Merge sort        | :x:    |
+
 
 ## License
 
