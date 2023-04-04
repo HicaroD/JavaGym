@@ -2,10 +2,13 @@ package edu.javagym.datastructures.linked_list;
 
 public class LinkedList<T> {
 	private Node<T> head;
+	private Node<T> tail;
+
 	private int size;
 
 	public LinkedList() {
 		this.head = null;
+		this.tail = null;
 		this.size = 0;
 	}
 
@@ -24,14 +27,11 @@ public class LinkedList<T> {
 
 		if (head == null) {
 			setHead(node);
+			setTail(node);
 			return;
 		}
-
-		Node<T> temp = head;
-		while (temp.nextIsNotNull()) {
-			temp = temp.getNext();
-		}
-		temp.setNext(node);
+		tail.setNext(node);
+		setTail(node);
 		size++;
 	}
 
@@ -44,11 +44,13 @@ public class LinkedList<T> {
 		size++;
 	}
 
-	public void removeHead() {
+	public Node<T> removeHead() {
+		Node<T> oldHead = head;
 		Node<T> nextHeadNode = head.getNext();
 		head.setNext(nextHeadNode);
 		setHead(nextHeadNode);
 		size--;
+		return oldHead;
 	}
 
 	public void remove(T dataToBeRemoved) {
@@ -79,5 +81,13 @@ public class LinkedList<T> {
 
 	public int getSize() {
 		return size;
+	}
+
+	public Node<T> getTail() {
+		return tail;
+	}
+
+	public void setTail(Node<T> tail) {
+		this.tail = tail;
 	}
 }
