@@ -25,11 +25,11 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 
 ### Algorithms
 
-| Searching algorithm                                                        | Status             |
-| -------------------------------------------------------------------------- | ------------------ |
-| [Linear search](./Algorithms/src/searching/Main.java)                      | :heavy_check_mark: |
-| [Iterative version of Binary search](./Algorithms/src/searching/Main.java) | :heavy_check_mark: |
-| Recursive version of Binary search                                         | :x:                |
+| Searching algorithm                                                                                                             | Status             |
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [Linear search](./Algorithms/src/edu/javagym/algorithms/searching/linearsearch/LinearSearch.java)                               | :heavy_check_mark: |
+| [Iterative version of Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch/IterativeBinarySearch.java) | :heavy_check_mark: |
+| Recursive version of Binary search                                                                                              | :x:                |
 
 | Sorting algorithm | Status |
 | ----------------- | ------ |
