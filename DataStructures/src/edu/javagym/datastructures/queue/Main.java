@@ -1,7 +1,5 @@
 package edu.javagym.datastructures.queue;
 
-import edu.javagym.datastructures.linked_list.LinkedList;
-
 public class Main {
     public static void main(String[] args) {
         ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
