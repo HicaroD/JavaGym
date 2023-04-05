@@ -27,11 +27,11 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 
 ### Algorithms
 
-| Searching                                                                                 | Status             |
-| ----------------------------------------------------------------------------------------- | ------------------ |
-| [Linear](./Algorithms/src/edu/javagym/algorithms/searching/linearsearch/)                 | :heavy_check_mark: |
-| [Iterative Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch) | :heavy_check_mark: |
-| Recursive version of Binary search                                                        | :x:                |
+| Searching                                                                                                            | Status             |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [Linear](./Algorithms/src/edu/javagym/algorithms/searching/linearsearch/)                                            | :heavy_check_mark: |
+| [Iterative Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch)                            | :heavy_check_mark: |
+| [Recursive Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch/RecursiveBinarySearch.java) | :heavy_check_mark: |
 
 | Sorting algorithm | Status |
 | ----------------- | ------ |
