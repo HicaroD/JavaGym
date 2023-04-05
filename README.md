@@ -22,16 +22,18 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | [LinkedQueue](./DataStructures/src/edu/javagym/datastructures/queue/LinkedListQueue.java) | :heavy_check_mark: |
 | Hash Map                                                                                  | :x:                |
 | Binary Tree                                                                               | :x:                |
+| Binary Search Tree                                                                        | :x:                |
 | Adjacency Matrix                                                                          | :x:                |
 | Adjacency List                                                                            | :x:                |
 
 ### Algorithms
 
-| Searching                                                                                                            | Status             |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [Linear](./Algorithms/src/edu/javagym/algorithms/searching/linearsearch/)                                            | :heavy_check_mark: |
-| [Iterative Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch)                            | :heavy_check_mark: |
-| [Recursive Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch/RecursiveBinarySearch.java) | :heavy_check_mark: |
+| Searching                                                                                  | Status             |
+| ------------------------------------------------------------------------------------------ | ------------------ |
+| [Linear](./Algorithms/src/edu/javagym/algorithms/searching/linearsearch/)                  | :heavy_check_mark: |
+| [Iterative Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch/) | :heavy_check_mark: |
+| [Recursive Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch/) | :heavy_check_mark: |
+| Djikstra's algorithm                                                                       | :x:                |
 
 | Sorting algorithm | Status |
 | ----------------- | ------ |
@@ -39,6 +41,11 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | Insertion sort    | :x:    |
 | Selection sort    | :x:    |
 | Merge sort        | :x:    |
+
+| String-searching algorithms | Status |
+| --------------------------- | ------ |
+| Rabin-Karp                  | :x:    |
+| Knuth-Morris-Pratt          | :x:    |
 
 ## License
 
