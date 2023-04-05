@@ -19,7 +19,7 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | [Linked List](./DataStructures/src/edu/javagym/datastructures/linked_list/)               | :heavy_check_mark: |
 | [Stack](./DataStructures/src/edu/javagym/datastructures/stack/)                           | :heavy_check_mark: |
 | [ArrayQueue](./DataStructures/src/edu/javagym/datastructures/queue/ArrayQueue.java)       | :heavy_check_mark: |
-| [LinkedQueue](./DataStructures/src/edu/javagym/datastructures/queue/LinkedListQueue.java) | :x:                |
+| [LinkedQueue](./DataStructures/src/edu/javagym/datastructures/queue/LinkedListQueue.java) | :heavy_check_mark: |
 | Hash Map                                                                                  | :x:                |
 | Binary Tree                                                                               | :x:                |
 | Adjacency Matrix                                                                          | :x:                |
@@ -39,7 +39,6 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | Insertion sort    | :x:    |
 | Selection sort    | :x:    |
 | Merge sort        | :x:    |
-
 
 ## License
 
