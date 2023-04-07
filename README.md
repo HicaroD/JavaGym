@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Data structures](#data-structures)
 - [Algorithms](#algorithms)
+- [Design patterns](#design-patterns)
 - [References](#references)
 
 ### Introduction
