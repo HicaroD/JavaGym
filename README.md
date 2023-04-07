@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Data structures](#data-structures)
 - [Algorithms](#algorithms)
+- [References](#references)
 
 ### Introduction
 
@@ -46,6 +47,48 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | --------------------------- | ------ |
 | Rabin-Karp                  | :x:    |
 | Knuth-Morris-Pratt          | :x:    |
+
+### Design patterns
+
+| Creational patterns | Status |
+| ------------------- | ------ |
+| Abstract factory    | :x:    |
+| Builder             | :x:    |
+| Factory method      | :x:    |
+| Prototype           | :x:    |
+| Singleton           | :x:    |
+| Object pool         | :x:    |
+
+| Structural patterns | Status |
+| ------------------- | ------ |
+| Adapter             | :x:    |
+| Facade              | :x:    |
+| Decorator           | :x:    |
+| Proxy               | :x:    |
+| Bridge              | :x:    |
+| Composite method    | :x:    |
+| Flyweight           | :x:    |
+| Private Class Data  | :x:    |
+
+| Behavioral patterns     | Status |
+| ----------------------- | ------ |
+| Strategy                | :x:    |
+| Template method         | :x:    |
+| Visitor                 | :x:    |
+| Observer                | :x:    |
+| Iterator                | :x:    |
+| Chain of responsibility | :x:    |
+| Command                 | :x:    |
+| Interpreter             | :x:    |
+| Mediator                | :x:    |
+| Memento                 | :x:    |
+| Null object             | :x:    |
+| State                   | :x:    |
+
+## References
+
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+- [Design patterns from Source Making](https://sourcemaking.com/design_patterns)
 
 ## License
 
