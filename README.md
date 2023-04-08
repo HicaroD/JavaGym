@@ -37,12 +37,12 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | [Recursive Binary search](./Algorithms/src/edu/javagym/algorithms/searching/binarysearch/) | :heavy_check_mark: |
 | Djikstra's algorithm                                                                       | :x:                |
 
-| Sorting algorithm | Status             |
-| ----------------- | ------------------ |
-| Bubble sort       | :heavy_check_mark: |
-| Insertion sort    | :x:                |
-| Selection sort    | :x:                |
-| Merge sort        | :x:                |
+| Sorting algorithm                                                              | Status             |
+| ------------------------------------------------------------------------------ | ------------------ |
+| [Bubble sort](./Algorithms/src/edu/javagym/algorithms/sorting/BubbleSort.java) | :heavy_check_mark: |
+| Insertion sort                                                                 | :x:                |
+| Selection sort                                                                 | :x:                |
+| Merge sort                                                                     | :x:                |
 
 | String-searching algorithms | Status |
 | --------------------------- | ------ |
