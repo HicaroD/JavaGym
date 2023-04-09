@@ -71,6 +71,20 @@ public class LinkedList<T> {
 		}
 	}
 
+	public Integer indexOf(Node<T> targetNode) {
+		Node<T> temp = head;
+		Integer index = 0;
+
+		while (temp.nextIsNotNull()) {
+			if (temp.equals(targetNode)) {
+				return index;
+			}
+			index++;
+			temp = temp.getNext();
+		}
+		return -1;
+	}
+
 	public Node<T> getHead() {
 		return head;
 	}
