@@ -22,10 +22,10 @@ I'm doing it for **educational purposes**, most part of the algorithms and data 
 | [Stack](./DataStructures/src/edu/javagym/datastructures/stack/)                           | :heavy_check_mark: |
 | [ArrayQueue](./DataStructures/src/edu/javagym/datastructures/queue/ArrayQueue.java)       | :heavy_check_mark: |
 | [LinkedQueue](./DataStructures/src/edu/javagym/datastructures/queue/LinkedListQueue.java) | :heavy_check_mark: |
+| [Adjacency List](./DataStructures/src/edu/javagym/datastructures/adjacency_list/)         | :heavy_check_mark: |
 | Binary Tree                                                                               | :x:                |
 | Binary Search Tree                                                                        | :x:                |
 | Adjacency Matrix                                                                          | :x:                |
-| Adjacency List                                                                            | :x:                |
 | Hash Map                                                                                  | :x:                |
 | Priority Queue                                                                            | :x:                |
 
